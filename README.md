@@ -7,8 +7,8 @@ A)Yes, you can overload a main method
 Q) What is the output of the following?
 
 ```
-	String s = "Hello, how are you doing ?";
-	System.out.println(s.substring(5, 3));
+String s = "Hello, how are you doing ?";
+System.out.println(s.substring(5, 3));
   ```
   
   A) `java.lang.StringIndexOutOfBoundsException: String index out of range: -2`
@@ -23,7 +23,9 @@ Q) What is the output of the following?
  
  Q) What is the output of following?
  ```
- int i = 10++11 --12++13--14++15;
+ int i = 10++11--12++13--14++15;
  System.out.println(i);
  ```
- A) 
+ A) 75.Beacuse 10+11+12+13+14+15 = 75, all these are unary operators.
+ 
+ 
