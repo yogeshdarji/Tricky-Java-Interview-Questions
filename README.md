@@ -28,4 +28,9 @@ System.out.println(s.substring(5, 3));
  ```
  A) 75.Beacuse 10+11+12+13+14+15 = 75, all these are unary operators.
  
- 
+  **Q) What is the difference between HashMap and Concurrent HashMap?**
+  
+  A) Below are the difference between HashMap and ConcurrentHashMap:
+- ConcurrentHashMap was made to make HashMap thread-safe and synchronized.   
+- HashMap can be synchronized by wrapping it on Collections.synchornizedMap(HashMap) which will return a collection which is almost equivalent to Hashtable, where every modification operation on Map is locked on Map object while in case of ConcurrentHashMap, thread-safety is achieved by dividing whole Map into different partition based upon Concurrency level and only locking particular portion instead of locking the whole Map
+
