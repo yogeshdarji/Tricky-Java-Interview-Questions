@@ -34,3 +34,8 @@ System.out.println(s.substring(5, 3));
 - ConcurrentHashMap was made to make HashMap thread-safe and synchronized.   
 - HashMap can be synchronized by wrapping it on Collections.synchornizedMap(HashMap) which will return a collection which is almost equivalent to Hashtable, where every modification operation on Map is locked on Map object while in case of ConcurrentHashMap, thread-safety is achieved by dividing whole Map into different partition based upon Concurrency level and only locking particular portion instead of locking the whole Map
 
+ **Q) How to set the java initial heap size and maximum heap size?**
+  
+  A) `java -Xms1g` - to set intial Java heap size
+     `java -Xmx6g` - to set maximum Java heap size
+  
