@@ -37,5 +37,5 @@ System.out.println(s.substring(5, 3));
  **Q) How to set the java initial heap size and maximum heap size?**
   
   A) `java -Xms1g` - to set intial Java heap size <br />
-     _`java -Xmx6g` - to set maximum Java heap size
+      `java -Xmx6g` - to set maximum Java heap size
   
